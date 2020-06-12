@@ -15,7 +15,7 @@ interface IStack{
 		
 		public StackArray(int stackSize) {
 			top = -1; //스택 포인터 초기화
-			this.stackSize = stackSize;
+			this.stackSize =  stackSize;
 			stackArr = new char[this.stackSize];
 		}
 		
