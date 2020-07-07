@@ -1,3 +1,4 @@
+
 package test0609;
 
 public class Printer {

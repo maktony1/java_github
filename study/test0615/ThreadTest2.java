@@ -1,9 +1,8 @@
 package test0615;
 
-public class ThreadTest {
+public class ThreadTest2 {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 
 	}
 

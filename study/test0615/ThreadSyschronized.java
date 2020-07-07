@@ -1,6 +1,7 @@
-package test0612;
+package test0615;
 
-class Account{
+
+class Account2{
 	int balance = 1000;
 	
 	public synchronized void withdraw(int money) {
@@ -11,9 +12,8 @@ class Account{
 	}
 }
 
-public class RunnableEx24 implements Runnable {
-
-	Account acc = new Account();
+public class ThreadSyschronized implements Runnable {
+	Account2 acc = new Account2();
 	@Override
 	public void run() {
 		while(acc.balance > 0 ) {
@@ -23,16 +23,11 @@ public class RunnableEx24 implements Runnable {
 		}
 	}
 	public static void main(String[] args) {
-		
-		Runnable r = new RunnableEx24();
+		ThreadSyschronized r = new ThreadSyschronized();
 		Thread t1 = new Thread(r);
 		Thread t2 = new Thread(r);
 		t1.start();
 		t2.start();
 		
 	}
-		
-		
-		
-
 }

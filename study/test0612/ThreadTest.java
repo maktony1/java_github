@@ -43,7 +43,7 @@ import javax.swing.JOptionPane;
 //	}//end of run()
 //}
 /////////////////////////////////////////////////////////
-public class ThreadTest{
+public  class ThreadTest{
 	public static void main(String[] args) {
 //		String th =Thread.currentThread().getName();
 //		System.out.println(th);
