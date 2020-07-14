@@ -19,7 +19,7 @@ class Person{
 		 this.age=age;
 	}
 	 
-	 @Override
+		 @Override
 		public boolean equals(Object obj) {
 			if (this.name == ((Person) obj).name && this.age == ((Person) obj).age )
 				return true;
