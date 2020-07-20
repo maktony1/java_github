@@ -8,7 +8,7 @@
 //
 //	public int userHand(String whatRPS) {
 //		int RPS = 0;
-//		
+//		 
 //		if (whatRPS == "가위") {
 //			RPS = 1;
 //		} else if (whatRPS == "바위") {
